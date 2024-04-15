@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qr-code-generator-api-3"
+version = "0.1.0"
+description = "Based on the requirements provided and the research conducted, the task involves creating a web service using FastAPI that serves an endpoint to generate QR codes dynamically based on user inputs. Here's a comprehensive overview of the solution:"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+bcrypt = "^3.2.0"
+fastapi = "^0.68.0"
+prisma = "*"
+pydantic = "*"
+qrcode = "^7.3.1"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
